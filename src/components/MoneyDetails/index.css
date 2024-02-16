@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.money-details-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+  border-width: 1px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media (max-width: 767px) {
+  .money-details-container {
+    flex-direction: column;
+  }
+  .money-details-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.lime {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+
+.cyan {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+
+.purple {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+
+.money-details-item-image {
+  width: 60px;
+}
+
+.money-details-item-text-container {
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.money-details-item-text-container-your {
+  font: 400 15px 'Roboto';
+  color: #475569;
+}
+
+.money-details-item-text-container-balance {
+  font: 500 20px 'Roboto';
+  color: #475569;
+}

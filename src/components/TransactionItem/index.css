@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.transaction-item {
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 1px;
+  width: 100%;
+  display: flex;
+}
+
+.each-para {
+  font: 400 17px 'Roboto';
+  color: #334155;
+  width: 25%;
+}
+
+.fisht {
+  padding-left: 30px;
+}
+
+.last-para-box {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-para {
+  font: 400 17px 'Roboto';
+  color: #334155;
+}
+
+.delete-icon {
+  width: 100%;
+}
+
+.transaction-delete-button {
+  background-color: #ffffff;
+  border: none;
+  width: 30px;
+  margin-right: 30px;
+}
